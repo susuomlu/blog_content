@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ISG-rUel0Uw/up
 
 ---
 
-# About me
+# I. About me
 
 * Senior Network Engineer with 2+ years of experience in the field of Networking.
     
@@ -16,13 +16,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ISG-rUel0Uw/up
 * Strong ability to comprehend and construct network systems, not only utilizing traditional technologies across L2 and L3 networks such as MPLS and VPLS, but also specializing in cutting-edge technologies like Cisco Software-Defined WAN and Aryaka Software-Defined WAN.
     
 
-# Education
+# II. Education
 
-## University of Information Technology Ho Chi Minh
+### University of Information Technology Ho Chi Minh
 
-Bachelor's degree in Computer and information systems security.
+Bachelor's degree in Computer and information systems security major.
 
-# Work experiences
+# III. Work experiences
 
 ### Security Researcher at UIT InsecLab (Part-time)
 
@@ -32,8 +32,8 @@ Main research topics:
     
 * OpenStack Service chaining.
     
-
-Secure Service chain for Telemedicine network.
+* Secure Service chain for Telemedicine network.
+    
 
 ### Senior Network Engineer at KDDI-Ho Chi Minh Global Network Operation Center (Jun 2022- Present)
 
@@ -65,7 +65,6 @@ IT helpdesk for 150+ users:
 
 * Conduct troubleshooting to resolve IT-related issues to users.
     
-
 * Developed and implemented a ticketing system to monito tickets, track incidents, and troubleshoot issues.
     
 * Provide information to users about policy and changes in company system.
@@ -88,7 +87,7 @@ IT Administrator for network implementation and security monitoring:
 * Maintained the company's security systems based on ISO/IEC 27001:2022.
     
 
-# **Technical skills**
+# **IV. Technical skills**
 
 * **Network protocols knowledge:** Understanding of protocols like TCP/IP, HTTP, DNS, SMTP, and more.
     
@@ -101,7 +100,7 @@ IT Administrator for network implementation and security monitoring:
 * **Software and hardware familiarity:** Experience with specific network hardware and software in Cisco and Juniper and Microsoft Server.
     
 
-# **Soft skills**
+# **V. Soft skills**
 
 * **Problem-solving:** Ability to analyze complex technical issues and devise effective solutions, maintaining network performance and reliability.
     
@@ -112,7 +111,7 @@ IT Administrator for network implementation and security monitoring:
 * **Time management:** Skilled in prioritizing tasks, managing workload, and working in a fast-paced work environment.
     
 
-# Languages
+# V. Languages
 
 * English
     
