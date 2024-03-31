@@ -61,7 +61,7 @@ Specialist in Cisco SD-WAN technology:
 
 ### Senior IT Administrator at KDDI-Ho Chi Minh Global Network Operation Center (Jan 2022- Present)
 
-IT helpdesk for 150+ users:
+Provide IT helpdesk for 150+ users:
 
 * Conduct troubleshooting to resolve IT-related issues to users.
     
