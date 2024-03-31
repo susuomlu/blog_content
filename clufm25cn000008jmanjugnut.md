@@ -76,7 +76,9 @@ IT Administrator for network implementation and security monitoring:
     
 * Working with colleagues and outside contractors to build company network in 2021 and 2024.
     
-* Experienced in Microsoft server and Linux server configuration.
+* Experienced in working with Microsoft server and Azure AD.
+    
+* Experienced in working with Linux server configuration.
     
 * Experienced in working with DELL and IBM servers.
     
