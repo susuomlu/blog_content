@@ -11,7 +11,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ISG-rUel0Uw/up
 
 * Senior Network Engineer with 2+ years of experience in the field of Networking.
     
-* Senior IT Administrator with 2+ years of experience in network implementation, security monitoring and helpdesk for KDDI HCM.
+* Senior IT Administrator with 2+ years of experience in network implementation, security monitoring and helpdesk.
     
 * Strong ability to comprehend and construct network systems, not only utilizing traditional technologies across L2 and L3 networks such as MPLS and VPLS, but also specializing in cutting-edge technologies like Cisco Software-Defined WAN and Aryaka Software-Defined WAN.
     
