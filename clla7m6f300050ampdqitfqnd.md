@@ -1,8 +1,8 @@
 ---
-title: "[GitHub] Making your first commit"
+title: "Making your first GitHub commit"
 datePublished: Mon Aug 14 2023 01:42:08 GMT+0000 (Coordinated Universal Time)
 cuid: clla7m6f300050ampdqitfqnd
-slug: github-making-your-first-commit
+slug: making-your-first-github-commit
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4vMfb8srdTQ/upload/90167ff7cebfaf5ba6aa42aa41c9d938.jpeg
 tags: github, git
 
