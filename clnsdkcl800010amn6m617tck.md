@@ -1,8 +1,8 @@
 ---
-title: "[Networking] How Longest prefix matching effect routing"
+title: "How Longest prefix matching effect routing"
 datePublished: Mon Oct 16 2023 04:07:57 GMT+0000 (Coordinated Universal Time)
 cuid: clnsdkcl800010amn6m617tck
-slug: networking-how-longest-prefix-matching-effect-routing
+slug: how-longest-prefix-matching-effect-routing
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/7nrsVjvALnA/upload/6c11bb8e4a3e42f45f6f608448dc918c.jpeg
 tags: network, routing, networking
 
