@@ -1,8 +1,8 @@
 ---
-title: "[Networking] The OSI Model"
+title: "The OSI Networking Model"
 datePublished: Wed Aug 02 2023 06:26:39 GMT+0000 (Coordinated Universal Time)
 cuid: clktchug0000809l60fsuh4y0
-slug: networking-the-osi-model
+slug: the-osi-networking-model
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/40XgDxBfYXM/upload/3ba5559e00d8e587961c4ed437cdbed1.jpeg
 tags: networking
 
