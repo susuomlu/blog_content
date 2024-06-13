@@ -1,8 +1,8 @@
 ---
-title: "[Automation] Zabbix Monitoring Tool"
+title: "Zabbix Monitoring Tool"
 datePublished: Wed Aug 02 2023 06:19:53 GMT+0000 (Coordinated Universal Time)
 cuid: clktc9552000209mn9kdl8qby
-slug: automation-zabbix-monitoring-tool
+slug: zabbix-monitoring-tool
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/qwtCeJ5cLYs/upload/38b9ee04b1e2d0d388f1bed28f096a64.jpeg
 tags: automation, networking
 
