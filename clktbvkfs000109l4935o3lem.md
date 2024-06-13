@@ -1,8 +1,8 @@
 ---
-title: "[Disaster Recovery] How to migrate Azure AD Connect"
+title: "How to migrate Azure AD Connect from a Disaster Recovery"
 datePublished: Wed Aug 02 2023 06:09:20 GMT+0000 (Coordinated Universal Time)
 cuid: clktbvkfs000109l4935o3lem
-slug: disaster-recovery-how-to-migrate-azure-ad-connect
+slug: how-to-migrate-azure-ad-connect-from-a-disaster-recovery
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/M5tzZtFCOfs/upload/1d13e6fca1a58c97bed7bb552d5c0509.jpeg
 tags: cloud, networking, disaster-recovery
 
