@@ -26,7 +26,7 @@ Phishers substitute certain Cyrillic characters for their Latin counterparts in 
 
 Unaware users might not notice the subtle difference and click on the link, leading them to a fake website designed to steal login credentials, credit card details, or other sensitive information.
 
-# A real example
+# A Real Example
 
 In the screenshot below, we see a message supposedly sent from the domain [apple.com](http://apple.com). It looks really legitimate.
 
