@@ -1,5 +1,5 @@
 ---
-title: "[Linux] User management"
+title: "Linux User management"
 datePublished: Thu Oct 05 2023 06:57:16 GMT+0000 (Coordinated Universal Time)
 cuid: clnctrqkq000j08judm2t1cqw
 slug: linux-user-management
