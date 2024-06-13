@@ -1,8 +1,8 @@
 ---
-title: "[GitHub] Working with a Remote repository"
+title: "Working with a Remote GitHub repository"
 datePublished: Tue Aug 22 2023 07:47:02 GMT+0000 (Coordinated Universal Time)
 cuid: cllm0697x000h0al9db0r5lz1
-slug: github-working-with-a-remote-repository
+slug: working-with-a-remote-github-repository
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wnShDP37vB4/upload/9acec8ff798bb8ca14a2c3d3f5eba371.jpeg
 tags: github, git
 
