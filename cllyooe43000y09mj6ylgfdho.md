@@ -1,8 +1,8 @@
 ---
-title: "[Automation] Automate your terminal with Tera Term Macro"
+title: "Automate your terminal with Tera Term Macro"
 datePublished: Thu Aug 31 2023 04:46:13 GMT+0000 (Coordinated Universal Time)
 cuid: cllyooe43000y09mj6ylgfdho
-slug: automation-automate-your-terminal-with-tera-term-macro
+slug: automate-your-terminal-with-tera-term-macro
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/p1m4B-lhS9Y/upload/5290ab9103a7552978515b48a0081d4c.jpeg
 tags: automation, networking, teraterm
 
