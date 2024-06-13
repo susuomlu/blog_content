@@ -1,5 +1,5 @@
 ---
-title: "[GitHub] Branching and Merging"
+title: "GitHub Branching and Merging"
 datePublished: Mon Aug 14 2023 08:09:10 GMT+0000 (Coordinated Universal Time)
 cuid: cllalfwhl000508mq6loa4p9b
 slug: github-branching-and-merging
