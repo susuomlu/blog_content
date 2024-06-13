@@ -1,8 +1,8 @@
 ---
-title: "[Linux] Find your way around the terminal"
+title: "Find your way around the Linux terminal"
 datePublished: Thu Sep 14 2023 09:17:45 GMT+0000 (Coordinated Universal Time)
 cuid: clmiyjhu2000809mmaw7hf1y6
-slug: linux-find-your-way-around-the-terminal
+slug: find-your-way-around-the-linux-terminal
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/TVxYoWzqdjs/upload/74cebf557408f11b8664f9c0ed624117.jpeg
 tags: linux, linux-for-beginners, linux-basics
 
