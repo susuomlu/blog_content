@@ -14,8 +14,8 @@ You can use the `--privileged` flag when starting a container to grant it more p
 
 1. **Create a Dockerfile** for an Ubuntu image with systemd installed.
     
-    ```plaintext
-    DockerfileCopy codeFROM ubuntu:20.04
+    ```dockerfile
+    FROM ubuntu:20.04
     
     ENV container docker
     
@@ -31,26 +31,26 @@ You can use the `--privileged` flag when starting a container to grant it more p
     
 2. **Build the Docker image**:
     
-    ```plaintext
-    bashCopy codedocker build -t ubuntu-systemd .
+    ```bash
+    docker build -t ubuntu-systemd .
     ```
     
 3. **Run the container** with `--privileged` and mount necessary filesystems:
     
-    ```plaintext
-    bashCopy codedocker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d ubuntu-systemd
+    ```bash
+    docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d ubuntu-systemd
     ```
     
 4. Now, you should be able to **enter the container** and run `systemctl` commands:
     
-    ```plaintext
-    bashCopy codedocker exec -it <container_id> bash
+    ```bash
+    docker exec -it <container_id> bash
     ```
     
     Inside the container, you can now run `systemctl` commands, such as:
     
-    ```plaintext
-    bashCopy codesystemctl status
+    ```bash
+    systemctl status
     ```
     
 
@@ -64,8 +64,8 @@ If your goal is to run multiple services inside a single container, you can use 
 
 For example, instead of using `systemd` inside Docker, you can define multiple services in your `docker-compose.yml` file:
 
-```plaintext
-yamlCopy codeversion: '3'
+```yaml
+version: '3'
 services:
   web:
     image: my-web-image
