@@ -77,10 +77,6 @@ services:
       - ./data:/var/lib/postgresql/data
 ```
 
-### 4\. **Use** `systemd-docker`
-
-There is a utility called `systemd-docker`, but it is an advanced option that allows `systemd` to run in a Docker container. It's not officially maintained, but you can explore it [here on GitHub](https://github.com/kinvolk/systemd-docker).
-
 ### Summary
 
 Running `systemctl` inside Docker is not the typical use case because Docker doesn't use an init system like `systemd`. However, if you need `systemctl` for managing services, the method of using the `--privileged` flag with `systemd` in the container is a viable workaround. For more typical use cases, it is often better to manage services via `supervisord` or Docker Compose, avoiding `systemctl` entirely.
