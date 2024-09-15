@@ -8,10 +8,6 @@ tags: linux, docker, system-architecture
 
 ---
 
-Docker containers typically don't have an init system like `systemd`, which is what `systemctl` interacts with. However, there are workarounds and methods to simulate or enable it.
-
-Here’s a breakdown of the options:
-
 ### 1\. **Use** `docker run` with `--privileged` and install systemd manually
 
 You can use the `--privileged` flag when starting a container to grant it more privileges and install `systemd`. Here's a step-by-step guide:
