@@ -181,7 +181,38 @@ cd /opt/kibana
 nohup bin/kibana &
 ```
 
-Now, access [http://192.168.234.128:5601](http://192.168.234.128:5601) [](http://192.168.234.128:5601/)(or the IP address of the node where Kibana is installed) in a web browser and log in with the elastic account.
+Now, access [http://192.168.234.128:5601](http://192.168.234.128:5601) (or the IP address of the node where Kibana is installed) in a web browser and log in with the elastic account.
+
+# Troubleshoot common problem
+
+When joining new node to cluster, you just need to copy the certificates `elastic-stack-ca.p12` to your new node.
+
+However, when initialize a node, elasticsearch already create an `elasticsearch.keystore` file and it will ask for previous keystore password.
+
+```plaintext
+Caused by: org.elasticsearch.common.ssl.SslConfigException: cannot read configured [PKCS12] keystore (as a truststore) [/etc/elasticsearch/certs/elastic-certificates.p12] - this is usually caused by an incorrect password; (a keystore password was provided)
+
+        at org.elasticsearch.common.ssl.SslFileUtil.ioException(SslFileUtil.java:58) ~[?:?]
+```
+
+You need to recreate a new `elasticsearch.keystore` and tell it to use blank password.
+
+```plaintext
+# Remove the transport layer keystore
+rm /etc/elasticsearch/elasticsearch.keystore
+
+# Add the password for the transport layer keystore
+/usr/share/elasticsearch/bin/elasticsearch-keystore add xpack.security.transport.ssl.keystore.secure_password
+The elasticsearch keystore does not exist. Do you want to create it? [y/N]y
+Enter value for xpack.security.transport.ssl.keystore.secure_password:
+
+/usr/share/elasticsearch/elasticsearch-keystore add xpack.security.transport.ssl.truststore.secure_password
+Enter value for xpack.security.http.ssl.truststore.secure_password:
+```
+
+You will be prompted to enter the password for your `.p12` file for each command. **Enter the same password you created when you generated the certificate.**
+
+Or if you leave the password blank, just press Enter.
 
 # Conclusion
 
