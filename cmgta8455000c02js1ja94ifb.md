@@ -22,8 +22,12 @@ Before we begin, ensure you have the following ready:
     
 * (Optional) A backend web application you want to protect. For this guide, we'll assume an application is running on port `3000`.
     
+* **Deployment Model:**
+    
 
-# Downloads setup files
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760611073979/2fbd7965-c1a7-4b84-8503-125fb80edbca.png align="center")
+
+# Fetch the Deployment Blueprint
 
 Create a folder for your new open-appsec deployment and switch to that folder, e.g.
 
