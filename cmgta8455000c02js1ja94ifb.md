@@ -79,13 +79,13 @@ export TOKEN="YOUR_TOKEN_HERE"
 
 With the configuration in place, it's time to bring everything online. Run the following command to start the services in detached mode (`-d`), which lets them run in the background.
 
-```
+```bash
 docker-compose up -d
 ```
 
 Docker will now pull the necessary images and start the containers. To verify that everything is running correctly, use the `docker ps` command:
 
-```
+```bash
 docker ps -a
 ```
 
@@ -95,7 +95,6 @@ You should see an output similar to this, with the `appsec-agent` and `npm-centr
 CONTAINER ID   IMAGE                                                                        COMMAND                  CREATED          STATUS          PORTS                                                                                  NAMES
 5204903ec4fe   ghcr.io/openappsec/nginx-proxy-manager-centrally-managed-attachment:latest   "/init"                  9 seconds ago    Up 6 seconds    0.0.0.0:80-81->80-81/tcp, :::80-81->80-81/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp   npm-centrally-managed-attachment
 4905a185b6fd   ghcr.io/openappsec/agent:latest                                              "/cp-nano-agent --to…"   9 seconds ago    Up 7 seconds                                                                                           appsec-agent
-5a8e6912fc73   public.ecr.aws/f4q1i2m2/acmeaudit:latest                                     "python3 ./main.py"      25 minutes ago   Up 25 minutes   0.0.0.0:8080->3000/tcp, :::8080->3000/tcp                                              acmeaudit
 ```
 
 You should now see the application on the [open-appsec Web UI](https://my.openappsec.io/?utm_medium=playground&utm_source=instruqt&utm_content=management)!
@@ -134,7 +133,6 @@ Now, you can run the following curl command again and that NGINX Proxy Manager i
 curl http://localhost
 ```
 
-#   
 Activate Protection in the OpenAppSec Portal
 
 In the [open-appsec Web UI](https://my.openappsec.io/?utm_medium=playground&utm_source=instruqt&utm_content=management): Create an asset defining the specific resources that open-appsec should protect, don't forget to enforce the policy afterwards. When logged in to the open-appsec portal, click on the Assets option in the top navigation menu.
