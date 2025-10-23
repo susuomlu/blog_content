@@ -2,7 +2,7 @@
 title: "Secure Your Website: A Complete Guide to Installing ModSecurity v3 and the OWASP CRS"
 datePublished: Thu Oct 23 2025 09:11:33 GMT+0000 (Coordinated Universal Time)
 cuid: cmh37dgmi000g02jx4fv8dajo
-slug: secure-your-website-a-complete-guide-to-installing-modsecurity-v3-and-the-owasp-crs
+slug: secure-your-website-with-modsecurity-and-owasp-crs
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/f5pTwLHCsAg/upload/0b73251a34646570c5bd0ca524ceb404.jpeg
 tags: nginx, security, waf, modsecurity
 
